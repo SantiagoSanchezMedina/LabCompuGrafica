@@ -1,19 +1,20 @@
-# 1) Crea carpeta y entra
-mkdir compu-grafica-practica-01
-cd compu-grafica-practica-01
+<p align="center">
+  <strong>UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO</strong><br>
+  <strong>FACULTAD DE INGENIERÍA</strong><br>
+  <strong>DIVISIÓN DE INGENIERÍA ELÉCTRICA</strong><br>
+  <strong>INGENIERÍA EN COMPUTACIÓN</strong><br>
+  <strong>LABORATORIO DE COMPUTACIÓN GRÁFICA e INTERACCIÓN HUMANO COMPUTADORA</strong>
+</p>
+---
 
-# 2) Inicializa repo y fija la rama principal como 'main'
-git init
-git branch -M main
+**Nombre completo:** José Santiago Sánchez Medina  
+**N.º de cuenta:** 319246881  
+**Grupo de laboratorio:** 03  
+**Grupo de teoría:** 04  
+**Semestre:** 2026-1  
+---
 
-# 3) Crea README.md (abrelo en tu editor y pega el template)
-#   (o usa:  notepad README.md  en Windows)
-notepad README.md
+## Descripción breve
+Repositorio para las practicas del lab de Computación Gráfica (OpenGL + GLFW + GLEW).  
+Este README funciona como carátula con mis datos.
 
-# 4) Primer commit
-git add README.md
-git commit -m "Add carátula en README"
-
-# 5) Conecta con GitHub (crea un repo vacío con el mismo nombre y copia su URL)
-git remote add origin https://github.com/<tu_usuario>/compu-grafica-practica-01.git
-git push -u origin main
